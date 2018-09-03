@@ -1,0 +1,25 @@
+{
+  "name": "intercalate",
+  "version": "0.1.0",
+  "description": "Flexible intercalation of elements into arrays.",
+  "main": "intercalate.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdekstrand/intercalate.git"
+  },
+  "keywords": [
+    "array"
+  ],
+  "author": "Michael Ekstrand <md@ekstrandom.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdekstrand/intercalate/issues"
+  },
+  "homepage": "https://github.com/mdekstrand/intercalate#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
