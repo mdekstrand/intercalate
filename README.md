@@ -41,4 +41,4 @@ And the pair separator is correctly ignored for longer lists:
     ['My parents', ', ', 'Ayn Rand', ', and ', 'God']
 
 This lets us create gramatically correct lists that work as pairs and that do
-not introduce disturbing family tries.
+not introduce disturbing family trees.
