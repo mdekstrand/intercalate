@@ -34,6 +34,11 @@ describe('intercalate', () => {
     assert.deepEqual(res, ['a', 2, 'b', 2, 'c', 2, 'd', 5, 'e']);
   });
 
+  it('ignore the pair joiner for many items', () => {
+    let res = intercalate(['a', 'b', 'c', 'd', 'e'], 2, 5, 100);
+    assert.deepEqual(res, ['a', 2, 'b', 2, 'c', 2, 'd', 5, 'e']);
+  });
+
   it('should use the terminating joiner in a two-element array', () => {
     let res = intercalate(['wumpus', 'splintercat'], ' ', 'x');
     assert.deepEqual(res, ['wumpus', 'x', 'splintercat']);
