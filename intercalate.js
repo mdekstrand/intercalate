@@ -1,6 +1,6 @@
 function intercalate(arr, sep, final, pair) {
   if (arr.length < 2) {
-    return arr;
+    return arr.slice();
   } else if (arr.length && pair !== undefined) {
     let [e1, e2] = arr;
     return [e1, pair, e2];
