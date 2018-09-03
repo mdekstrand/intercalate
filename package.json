@@ -1,6 +1,6 @@
 {
   "name": "intercalate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Flexible intercalation of elements into arrays.",
   "main": "intercalate.js",
   "scripts": {
